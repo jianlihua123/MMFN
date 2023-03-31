@@ -3,3 +3,13 @@ This code is for ''Multi-Scale and Multi-Stream Fusion Network for Pansharpening
 # Citation
 
 If you use this code, please cite the following article.
+@article{jian2023multi,\
+  title={Multi-Scale and Multi-Stream Fusion Network for Pansharpening},\
+  author={Jian, Lihua and Wu, Shaowu and Chen, Lihui and Vivone, Gemine and Rayhana, Rakiba and Zhang, Di},\
+  journal={Remote Sensing},\
+  volume={15},\
+  number={6},\
+  pages={1666},\
+  year={2023},\
+  publisher={MDPI}\
+}
