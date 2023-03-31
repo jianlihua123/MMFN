@@ -1,0 +1,35 @@
+{
+    "mode": "sr",
+    "use_cl": false,
+    "gpu_ids": [0],
+
+    "scale": 4,
+    "degradation": "BI",
+    "is_train": false,
+    "use_chop": false,
+    "rgb_range": 2047,
+    "self_ensemble": false,
+
+    "datasets": {
+        "test_set1": {
+            "mode": "LRHR",
+            "dataroot_HR": "SourceData/QB/Augment_test/HR_npy",
+            "dataroot_LR": "SourceData/QB/Augment_test/LR_npy",
+            "dataroot_PAN": "SourceData/QB/Augment_test/PAN_npy",
+            "data_type": "npy"
+        }
+    },
+
+    "networks": {
+        "which_model": "MMFTHREE",
+        "num_features": 32,
+        "in_channels": 4,
+        "out_channels": 4,
+        "num_steps": 4,
+        "num_groups": 6
+    },
+
+    "solver": {
+        "pretrained_path": "./models/best_ckp.pth"
+    }
+}
