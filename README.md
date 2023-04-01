@@ -1,5 +1,6 @@
 # MMFN
-This code is for ''Multi-Scale and Multi-Stream Fusion Network for Pansharpening'' published in RS2023
+This code is for ''Multi-Scale and Multi-Stream Fusion Network for Pansharpening'' published in RS2023. The SourceData foler only contains partial sample data of QuickBird. Please prepare you own data (NPY format) to train the model when you use this code.\ 
+
 # Citation
 
 If you use this code, please cite the following article.\
